@@ -1,0 +1,13 @@
+Resources:
+  Function:
+    Type: AWS::Serverless::Function
+    Properties:
+      Timeout: 300
+      MemorySize: 128
+      Handler: helloworld.FileReadInS3::handleRequest
+      CodeUri: s3://accept-lambda-function/959f2bb3dd02b49ac4f97fd8f53e61a9
+      Runtime: java11
+      Architectures:
+      - x86_64
+    Metadata:
+      SamResourceId: Function

@@ -1,0 +1,13 @@
+Resources:
+  Function:
+    Type: AWS::Serverless::Function
+    Properties:
+      Timeout: 300
+      MemorySize: 128
+      Handler: com.lambdatest2.Main::handleRequest
+      CodeUri: s3://s3-for-zipfile/253ce4efe52daa2865240ed1cb96dec6
+      Runtime: java11
+      Architectures:
+      - x86_64
+    Metadata:
+      SamResourceId: Function

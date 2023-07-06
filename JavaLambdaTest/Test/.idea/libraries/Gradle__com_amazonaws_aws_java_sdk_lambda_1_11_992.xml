@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.amazonaws:aws-java-sdk-lambda:1.11.992" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.amazonaws" artifactId="aws-java-sdk-lambda" version="1.11.992" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-lambda/1.11.992/2ec8ef63a44a8745eb03348a7794611a36ac6a4/aws-java-sdk-lambda-1.11.992.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-lambda/1.11.992/eb7f7cc48728870f1cbcfafd17720842cd086301/aws-java-sdk-lambda-1.11.992-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

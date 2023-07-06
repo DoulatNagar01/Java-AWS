@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.amazonaws:aws-lambda-java-core:1.2.1'
+    implementation 'com.amazonaws:aws-lambda-java-events:3.11.0'
+    implementation 'com.amazonaws:aws-java-sdk-dynamodb:1.12.130'
+    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation 'com.googlecode.json-simple:json-simple:1.1.1'
+    implementation 'com.amazonaws:aws-java-sdk-lambda:1.12.88'
+}
+
+sourceCompatibility = 11
+targetCompatibility = 11
